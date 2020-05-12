@@ -1,0 +1,71 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    float: left;
+    text-align: center;
+}
+li a {
+    padding: 1.5em;
+    text-transform: uppercase;
+    /* font-size: 0.8em; */
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	
+}
+
+/** website logo with navbar bootstrap navbar-brand class **/
+
+.navbar-brand img
+{
+	position: relative;
+	width: 140px;
+	height: 140px;
+	margin-top: -38px;
+	margin-bottom: -68px;
+	margin-left: -35px;
+	/*margin-right: 200px;*/
+} 
+
+.navbar-nav li
+{
+	padding: 0 10px;
+	margin-top: auto;
+}
+
+.navbar-nav li a
+{
+float: right;
+text-align: left;
+}
+
+#nav-bar ul li a:hover
+{ 
+	color: #BA4A00!important;	
+}
+
+.navbar {
+	background: #fff;
+	
+}
+
+.navbar-toggler {	
+	border: none!important;
+	float: right;
+}
+
+.nav-link{
+	color: #4A235A !important;
+	font-weight: 600;
+	font-size: 16px;
+	/*margin-top: -30px; */
+	margin-top: -12px;
+	
+}
